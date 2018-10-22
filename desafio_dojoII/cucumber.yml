@@ -1,0 +1,4 @@
+default: --no-source --color --format pretty
+
+#cenario de criacao
+diario: -t @criar_tarefa  -f html -o report.html
